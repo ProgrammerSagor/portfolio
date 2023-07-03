@@ -8,7 +8,7 @@
 .hero {
     width: 100% !important;
     height: 100vh !important;
-    background-image: url("../image/IMG_1094.jpg") no-repeat center !important;
+    background: url(../image/IMG_1094.jpg) no-repeat center !important;
     background-size: cover !important;
 }
 
