@@ -1,0 +1,356 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family:sans-serif !important;
+    box-sizing: border-box !important;
+}
+
+.hero {
+    width: 100% !important;
+    height: 100vh !important;
+    background-image: url(/image/IMG_1094.jpg) !important;
+    background-size: cover !important;
+}
+
+nav{
+    display: flex !important;
+    text-align: center !important;
+    justify-content: space-between !important;
+    padding-top: 45px !important;
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+}
+ 
+.logo {
+    color: white !important;
+    font-size: 35px !important;
+    letter-spacing: 1px !important;
+    cursor: pointer !important;
+}
+ 
+span{
+    color: #f9004d !important;
+}
+
+nav ul li{
+   list-style-type: none !important;
+   display: inline-block !important;
+   padding: 10px 25px !important;
+}
+
+nav ul li a{
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    text-transform: capitalize !important;
+}
+
+nav ul li a:hover{
+    color: #f9004d !important;
+    transition: .4s !important;
+}
+
+.btn {
+    background-color:#f9004d !important;
+    color: white !important;
+    border: 12px solid transparent !important;
+    font-weight: bold !important;
+    padding: 1px 17px !important;
+    border-radius: 18px !important;
+    text-decoration: none !important;
+    transition: transform .4s !important;
+}
+
+.btn:hover {
+    transform: scale(1.2) !important;
+}
+
+.contant{
+    position: absolute !important;
+    top: 50% !important;
+    left: 8% !important;
+    transform: translateY(-50%) !important;
+    
+}
+
+h1{
+    color: white !important;
+    margin: 0px 0px -5px !important;
+    font-size: 54px !important;
+}
+
+h3{
+    color: white !important;
+    font-size: 25px !important;
+    margin-bottom: 50px !important;
+}
+
+h4{
+    color: #fcfc !important;
+    letter-spacing: 2px !important;
+    font-size: 20px !important;
+}
+
+.contant .newslatter form {
+    width: 380px !important;
+    max-width: 100% !important;
+    position: relative !important;
+}
+
+.contant .newslatter form input:first-child{
+    display: inline-block !important;
+    width: 100% !important;
+    padding:10px 10px !important;
+    border: 2px solid #f9004d !important;
+    outline: none !important;
+    border-radius: 30px !important;
+}
+
+.contant .newslatter form input:last-child{
+    position: absolute !important;
+    display: inline-block !important;
+    outline: none !important;
+    border: none !important;
+    padding: 10px 30px !important;
+    border-radius: 30px !important;
+    background-color: #f9004d !important;
+    color: white !important;
+    margin-left: 5px !important;
+    cursor: pointer !important;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585 !important;
+    top: 1px !important;
+    right: 2px !important;
+    text-transform: capitalize !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+.about {
+    width: 100% !important;
+   padding: 100px 0px !important;
+   background: #191919 !important;
+}
+
+.about img{
+    height: auto !important;
+    width: 430px !important;
+}
+
+.about_text {
+    width: 550px !important;
+}
+
+.main {
+    width: 1130px !important;
+    max-width: 95% !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.about_text h2{
+    color: white !important;
+    font-size: 75px !important;
+    text-transform: capitalize !important;
+    margin-bottom: 20px !important;
+}
+
+.about_text h5{
+    color: white !important;
+    letter-spacing: 2px !important;
+    font-size: 22px !important;
+    text-transform: capitalize !important;
+}
+.about_text p{
+    color: #fcfc !important;
+    letter-spacing: 1px !important;
+    line-height: 28px !important;
+    font-size: 18px !important;
+    margin-bottom: 45px !important;
+}
+
+button {
+    background-color: #f9004d !important;
+    color: white !important;
+    text-decoration: none !important;
+    border: 2px solid transparent !important;
+    font-weight: bolder !important;
+    padding: 13px 30px !important;
+    border-radius: 30px !important;
+    transition: .4s !important;
+}
+
+button:hover {
+    background-color: transparent !important;
+    border: 2px solid #f9004d !important;
+    cursor: pointer !important;
+}
+
+.service {
+    background: #101010 !important;
+    width: 100% !important;
+    padding: 100px 0px !important;
+ }
+ .title h2{
+    color: white !important;
+    font-size: 75px !important;
+    width: 1130px !important;
+    margin: 30px auto !important;
+    text-align: center !important;
+ }
+ .box {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 400px !important;
+ }
+
+ .card {
+    height: 365px !important;
+    width: 335px !important;
+    padding: 20px 35px !important;
+    background: #191919 !important;
+    border-radius: 20px !important;
+    margin: 15px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    text-align: center !important;
+
+ }
+
+ .card i{
+    font-size: 50px !important;
+    display: block !important;
+    text-align: center !important;
+    margin: 25px 0px !important;
+    color: #f9004d !important;
+ }
+
+ h5{
+    color: white !important;
+    font-size: 23px !important;
+    margin-bottom: 15px !important;
+ }
+
+ .pre p{
+    color: #fcfc !important;
+    font-size: 16px !important;
+    line-height: 27px !important;
+    margin-bottom: 25px !important;
+ }
+
+ .card .button {
+    background-color: #f9004d !important;
+    color: white !important;
+    text-decoration: none !important;
+    border: 2px solid transparent !important;
+    font-weight: bolder !important;
+    padding: 9px 22px !important;
+    border-radius: 30px !important;
+    transition: .4s !important;
+ }
+ .card .button:hover {
+    background-color: transparent !important;
+    border: 2px solid #f9004d !important;
+    cursor: pointer !important;
+}
+
+.contact-me{
+    width: 100% !important;
+    height: 290px !important;
+    background: #191919 !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.contact-me p{
+    color: white !important;
+    font-size: 30px !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+    margin-bottom: 40px !important;
+
+}
+
+.contact-me .button-two {
+    background-color: #f9004d !important;
+    color: white !important;
+    text-decoration: none !important;
+    border: 2px solid transparent !important;
+    font-weight: bolder !important;
+    padding: 9px 22px !important;
+    border-radius: 30px !important;
+    transition: .4s !important;
+}
+
+
+.contact-me .button-two:hover {
+    background-color: transparent !important;
+    border: 2px solid #f9004d !important;
+    cursor: pointer !important;
+}
+
+footer{
+    position: relative !important;
+    width: 100% !important;
+    height: 400px !important;
+    background: #101010 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+
+footer p:nth-child(1){
+    font-size: 30px !important;
+    color: white !important;
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+
+}
+
+footer p:nth-child(2){
+    color: white !important;
+    font-size: 17px !important;
+    width: 500px !important;
+    text-align: center !important;
+    line-height: 26px !important;
+    font-style:oblique !important;
+}
+
+.social {
+    display: flex !important;
+}
+
+.social a{
+    width: 45px !important;
+    height: 45px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #f9004d !important;
+    border-radius: 50% !important;
+    margin: 22px 10px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+
+}
+
+.social a:hover{
+    transform: scale(1.2) !important;
+    transition: .3s !important;
+
+}
+
+.end {
+    position: absolute !important;
+    color: #f9004d !important;
+    bottom: 35px !important;
+    font-size: 14px !important;
+}

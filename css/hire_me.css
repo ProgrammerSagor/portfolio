@@ -1,0 +1,220 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family:sans-serif !important;
+    box-sizing: border-box !important;
+}
+
+
+.container {
+    display: inline !important;
+}
+
+.container-fluid span {
+    color: #f9004d !important;
+}
+
+#main_menu .navbar-nav .nav-item  .nav-link {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    text-transform: capitalize !important;
+    margin-right: 20px !important;
+}
+
+
+#main_menu .navbar-nav .nav-item  .nav-link:hover{
+    background-color: transparent !important;
+    border: 2px solid #f9004d !important;
+    cursor: pointer !important;
+    border-radius: 7px !important;
+    background: #f9004d !important;
+    color: #FFFDD0 !important;
+    transition: 1.2s !important;
+}
+
+
+#logo {
+	font-size: 40px !important;
+	margin-left: 61px !important;
+	margin-top: -40px !important;
+}
+
+#logo span {
+color: red !important;
+}
+
+
+
+  .hire-me {
+    width: 100% !important;
+    height: auto !important;
+    background-color: bisque !important;
+    padding: 100px !important;
+    display: inline-block !important;
+  }
+
+  .hire-me {
+    text-align: center !important;
+  }
+
+
+  .hire-me label {
+    font-size: 20px !important;
+    text-align: center !important;
+    padding: 30px !important;
+  }
+
+  .hire-me input {
+    width: 340px !important;
+  }
+
+ #box {
+    margin-bottom: 50px !important;
+ }
+#box p{
+    font-weight: bold !important;
+    font-size: 40px !important;
+}
+
+.hire-me .button-two {
+    background-color: #f9004d !important;
+    color: white !important;
+    text-decoration: none !important;
+    border: 2px solid transparent !important;
+    font-weight: bolder !important;
+    padding: 9px 22px !important;
+    border-radius: 30px !important;
+    transition: .4s !important;
+    margin-bottom: 60px !important;
+}
+
+.hire-me .button-two:hover {
+    background-color: transparent !important;
+    border: 2px solid #f9004d !important;
+    cursor: pointer !important;
+}
+
+.hire-me #flex {
+    display: flex !important;
+    margin-top: 100px !important;
+}
+
+.hire-me #flex #list {
+    width: 500px !important;
+    border:5px solid #aaa  !important;
+    padding: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+.contact-me{
+    width: 100% !important;
+    height: 290px !important;
+    background: #191919 !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.contact-me p{
+    color: white !important;
+    font-size: 30px !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+    margin-bottom: 40px !important;
+
+}
+
+.contact-me .button-two {
+    background-color: #f9004d !important;
+    color: white !important;
+    text-decoration: none !important;
+    border: 2px solid transparent !important;
+    font-weight: bolder !important;
+    padding: 9px 22px !important;
+    border-radius: 30px !important;
+    transition: .4s !important;
+}
+
+
+.contact-me .button-two:hover {
+    background-color: transparent !important;
+    border: 2px solid #f9004d !important;
+    cursor: pointer !important;
+}
+
+footer{
+    position: relative !important;
+    width: 100% !important;
+    height: 400px !important;
+    background: #101010 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+
+footer p:nth-child(1){
+    font-size: 30px !important;
+    color: white !important;
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+
+}
+
+footer p:nth-child(2){
+    color: white !important;
+    font-size: 17px !important;
+    width: 500px !important;
+    text-align: center !important;
+    line-height: 26px !important;
+    font-style:oblique !important;
+}
+
+.social {
+    display: flex !important;
+}
+
+.social a{
+    width: 45px !important;
+    height: 45px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #f9004d !important;
+    border-radius: 50% !important;
+    margin: 22px 10px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+
+}
+
+.social a:hover{
+    transform: scale(1.2) !important;
+    transition: .3s !important;
+
+}
+
+.end {
+    position: absolute !important;
+    color: #f9004d !important;
+    bottom: 35px !important;
+    font-size: 14px !important;
+}
+
